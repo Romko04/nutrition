@@ -1,0 +1,258 @@
+/*Обнулення*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Regular-BF63c0b29a31dbb.woff') format('woff');
+}
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Regular-BF63c0b29a31dbb.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Regular-BF63c0b299b11fc.otf') format('otf');
+}
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Regular-BF63c0b29a31dbb.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Bold-BF63c0b29a3afd5.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Bold-BF63c0b29a0a013.otf') format('otf');
+}
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Bold-BF63c0b29a3afd5.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Evolventa';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Evolventa-Bold-BF63c0b29a3afd5.woff') format('woff');
+}
+
+
+body {
+    line-height: 1;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.body-block {
+    overflow: hidden;
+}
+
+.title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--color-title);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    font-family: 'Evolventa', sans-serif;
+
+}
+
+.scroll--block {
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    line-height: 1;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+html {
+    font-size: calc(100vw / 1440 * 10);
+}
+
+@media (max-width: 1024) {
+    html {
+        font-size: calc(100vw / 768 * 10);
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: calc(100vw / 500 * 10);
+    }
+
+    .main {
+        flex: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: calc(100vw / 375 * 10);
+    }
+}
+
