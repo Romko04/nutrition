@@ -74,6 +74,12 @@ a {
     text-decoration: none;
 }
 
+:root {
+    --black: #2F2F2F;
+    --orange: #FDC248;
+    --white: #FFFFFF;
+  }
+
 
 @font-face {
     font-family: 'Evolventa';
@@ -256,3 +262,110 @@ html {
     }
 }
 
+body {
+    background-image: url('../img/back.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% 90rem; 
+}
+
+
+
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.head__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head__container {
+    padding-right: 0;
+}
+.head__content-left {
+    background-image: url('../img/head/back.png');
+    background-repeat: no-repeat;
+    height: 73.7rem;
+    z-index: 2;
+    width: 79rem;
+    background-size: 100% 100%;
+}
+
+
+
+
+.head__content-left__top-text {
+    color: var(--white, #FFF);
+    font-family: Evolventa;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+.head__title {
+    color: var(--orange);
+font-family: Evolventa;
+font-size: 5.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 2.8rem;
+max-width: 66rem;
+}
+.head__subtitle {
+    color: var(--white, #FFF);
+font-family: Evolventa;
+display: block;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 33rem;
+margin-bottom: 8rem;
+position: relative;
+padding-bottom: 1.4rem;
+}
+.head__subtitle:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: var(--orange);
+    right: 0;
+    left: 0;
+    height: 0.2rem;
+}
+.btn {
+    border-radius: 4.4rem;
+    background: var(--orange, #FDC248);
+    padding: 2.2rem 6.2rem 2.2rem 1.4rem;
+    font-size: 2.9rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn::after {
+    content: ""; /* Додайте цей рядок, якщо ви хочете відобразити псевдоелемент */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../img/icons/arrow.svg');
+    background-repeat: no-repeat;
+    right: 2.7rem;
+    width: 2.5rem; /* Використовуйте відносні одиниці, якщо хочете масштабування */
+    height: 2.5rem;
+}
+
+.head__content-right {
+     position: absolute;
+     right: 0;
+     top: 0;
+}
+.head__content-img {
+    width: 70.5rem;
+    height: 73.7rem;
+} 
