@@ -1735,7 +1735,7 @@ text-decoration: underline;
 }
 .popup-container {
     position: fixed;
-    padding: 2rem;
+    padding: 2rem 0 3rem;
     bottom: -100px; /* initially hide the container below the viewport */
     left: 0;
     text-align: center;

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var scrollThreshold = 1400; // adjust this value as needed
   window.addEventListener('scroll', function() {
     if (window.scrollY >= scrollThreshold) {
-      popupContainer.style.bottom = '0'; // show the container
+      popupContainer.style.bottom = '-1px'; // show the container
     } else {
       popupContainer.style.bottom = '-100px'; // hide the container
     }
