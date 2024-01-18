@@ -1715,12 +1715,13 @@ text-decoration: underline;
     .thanks__content span {
         color: var(--white, #FFF);
     font-family: Evolventa;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     max-width: 26rem;
     text-align: center;
+    margin-bottom: 2rem;
     }
     .thanks__content span a{
         color: var(--white, #FFF);
