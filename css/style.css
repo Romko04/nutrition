@@ -150,6 +150,9 @@ body {
 .body-block {
     overflow: hidden;
 }
+.body--lock {
+    overflow: hidden;
+}
 
 
 
@@ -304,6 +307,15 @@ font-weight: 700;
 
 }
 .head__bottom-content__text--desk span{
+    font-weight: 700;
+    color: var(--orange);
+    }
+
+.head__bottom-content__text strong{
+font-weight: 700;
+    
+}
+.head__bottom-content__text span{
     font-weight: 700;
     color: var(--orange);
     }
@@ -623,8 +635,8 @@ font-weight: 700;
 
 .result__bottom-btn::after {
     background-size: cover;
-    width: 17.294px;
-    height: 17.294px;
+    width: 1.7rem;
+    height: 1.7rem;
     background-image: url('../img/icons/arrowsmall.svg');
     right: 1.7rem;
 
@@ -1306,8 +1318,10 @@ text-decoration: underline;
 
 
     .head__content-img {
-        width: 29.4rem;
-    height: 55.6rem;
+        /* width: 29.4rem;
+    height: 55.6rem; */
+    width: 32.4rem;
+    height: 62.6rem;
         object-position: left;
     }
 
@@ -1350,7 +1364,8 @@ text-decoration: underline;
 
     .head__content-left {
         width: 23.7rem;
-        height: 55.6rem;
+        /* height: 55.6rem; */
+        height: 62.6rem;
     }
 
     .head__content-left {
@@ -1367,18 +1382,29 @@ text-decoration: underline;
     }
 
     .head__content-left::after {
-        content: "";
+        /* content: "";
     display: block;
     position: absolute;
     top: -14.1rem;
     left: -117px;
     width: 100%;
-    /* height: 100%; */
     background-image: url('../img/head/backPhone.png');
     background-size: 100% 82rem;
     width: 33.2rem;
     z-index: -1;
-    min-height: 86rem;
+    min-height: 86rem; */
+    content: "";
+    display: block;
+    position: absolute;
+    top: -19.1rem;
+    left: -117px;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url('../img/head/backPhone.png');
+    background-size: 100% 99rem;
+    width: 33.2rem;
+    z-index: -1;
+    min-height: 89rem;
     }
 
     .head__content-left__top-text,
@@ -1433,7 +1459,7 @@ text-decoration: underline;
 
     .btn::after {
         width: 1.45rem;
-        height: 1.4rem;
+        height: 1.45rem;
         background-size: cover;
         right: 1.7rem;
     }
@@ -1625,7 +1651,7 @@ text-decoration: underline;
         height: 17rem;
     }
     .popup__content{
-        padding: 8.1rem 2.2rem;
+        padding: 8.1rem 2.2rem 2rem;
         gap: 1.5rem;
     }
     .svg__icon {
@@ -1637,7 +1663,7 @@ text-decoration: underline;
         margin-bottom: 0;
     }
     .popup__content-text p{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .popup__price{
         font-size: 3.2;
@@ -1645,9 +1671,9 @@ text-decoration: underline;
     .popup__btn{
         width: 100%;
     }
-    .btn__wrapper{
+    /* .btn__wrapper{
         margin: 1rem 0;
-    }
+    } */
     .popup__link{
         width: 100%;
     }
