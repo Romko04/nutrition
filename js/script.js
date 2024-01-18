@@ -14,8 +14,20 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
   });
+  var popupContainer = document.querySelector('.popup-container');
+  var scrollThreshold = 1400; // adjust this value as needed
+  window.addEventListener('scroll', function() {
+    if (window.scrollY >= scrollThreshold) {
+      popupContainer.style.bottom = '0'; // show the container
+    } else {
+      popupContainer.style.bottom = '-100px'; // hide the container
+    }
+  });
 
   document.addEventListener('click', (e) => {
+
+
+  
     const body = document.querySelector('body')
     let unlockPopup = true
 

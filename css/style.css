@@ -1042,7 +1042,7 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 4rem;
+    padding-bottom: 14rem;
 }
 
 .social__networks {
@@ -1578,7 +1578,7 @@ text-decoration: underline;
         text-align: right;
     }
     .program__list-item__btn{
-        transition: all ease .4s;
+        transition: all ease .1s;
     }
     .program__list-item__btn.active{
         margin-bottom: 1.5rem;
@@ -1733,3 +1733,18 @@ text-decoration: underline;
     } 
     
 }
+.popup-container {
+    position: fixed;
+    padding: 2rem;
+    bottom: -100px; /* initially hide the container below the viewport */
+    left: 0;
+    text-align: center;
+    transition: bottom 0.3s ease-in-out;
+    z-index: 4;
+    width: 100%;
+    background-color: var(--black);
+  }
+  
+  .fixed__btn {
+    padding: 1.2rem 6.2rem 1.2rem 1.4rem;
+  }
