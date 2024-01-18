@@ -1093,8 +1093,8 @@ body {
 
 
     .head__content-img {
-        width: 25.4rem;
-        height: 46.6rem;
+        width: 29.4rem;
+    height: 55.6rem;
         object-position: left;
     }
 
@@ -1107,18 +1107,18 @@ body {
         content: "";
         display: block;
         position: absolute;
-        top: 0;
-        left: 0.15rem;
+        top: 0.7rem;
+        left: -5px;
         width: 100%;
         height: 100%;
-        background-image: url('../img/backPhone.jpg');
-        background-size: 51.3rem 46rem;
+        background-image: url(../img/backPhone.jpg);
+        background-size: 71.3rem 52rem;
         z-index: 1;
     }
 
     .head__content-left {
         background-image: url('');
-        background-size: 100% 48.6rem;
+        background-size: 100%;
     }
 
     .btn {
@@ -1137,7 +1137,7 @@ body {
 
     .head__content-left {
         width: 23.7rem;
-        height: 46.6rem;
+        height: 55.6rem;
     }
 
     .head__content-left {
@@ -1155,16 +1155,17 @@ body {
 
     .head__content-left::after {
         content: "";
-        display: block;
-        position: absolute;
-        top: -12.1rem;
-        left: 0;
-        width: 100%;
-        /* height: 100%; */
-        background-image: url('../img/head/backPhone.png');
-        background-size: 100% 69rem;
-        z-index: -1;
-        height: 84rem;
+    display: block;
+    position: absolute;
+    top: -14.1rem;
+    left: -117px;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url('../img/head/backPhone.png');
+    background-size: 100% 82rem;
+    width: 33.2rem;
+    z-index: -1;
+    min-height: 86rem;
     }
 
     .head__content-left__top-text,
@@ -1193,7 +1194,8 @@ body {
         display: block;
         text-align: center;
         position: absolute;
-        bottom: 0;
+        bottom: 1rem;
+        width: 100%;
     }
 
     .head__link--mobile {
@@ -1212,13 +1214,13 @@ body {
         z-index: 2;
         text-align: left;
         padding-left: 1.5rem;
-        max-width: 34rem;
+        max-width: 35rem;
 
     }
 
     .btn::after {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.45rem;
+        height: 1.4rem;
         background-size: cover;
         right: 1.7rem;
     }
@@ -1275,9 +1277,9 @@ body {
         width: 100%;
         height: 44rem;
     }
-    .about__content-left{
+    /* .about__content-left{
         margin: 0 -2rem;
-    }
+    } */
 
 
 
@@ -1361,9 +1363,11 @@ body {
     .cases__container{
         padding-bottom: 6rem;
         padding-right: 0;
+        padding-left: 0;
     }
     .cases__title{
         margin: 7.6rem auto;
+        max-width: 22rem;
     }
     .come__content-right{
         flex-direction: column;
@@ -1392,5 +1396,12 @@ body {
     }
     .come__btn::after {
         right: 3.7rem;
+    }
+    .about__container{
+        padding: 0;
+    }
+    .about__content-right{
+        max-width: 33.3rem;
+        margin: 0 1.5rem;
     }
 }
