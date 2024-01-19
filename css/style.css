@@ -768,13 +768,11 @@ font-weight: 700;
     padding-left: 40rem;
 }
 
-.swiper-slide {
-    /* padding: 5rem; */
+/* .swiper-slide {
     border-radius: 50px;
     border: 3px solid var(--orange, #FDC248);
     background: var(--white, #FFF);
-    /* width: 49rem!important; */
-}
+} */
 
 .swiper-slide__content {
     max-width: 42rem;
@@ -1055,6 +1053,7 @@ font-weight: 700;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    margin-left: 12.5rem;
 }
 
 .footer__link {
@@ -1278,6 +1277,9 @@ text-decoration: underline;
 
 
 @media (max-width: 769px) {
+    .footer__contacts{
+        margin-left: 0;
+    }
     .head__content-left__top-text {
         font-size: 1.6rem;
         margin: 5rem 0 4rem;
