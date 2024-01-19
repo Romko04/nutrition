@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1.8,
         centeredSlides: true,
         spaceBetween: 76,
-        autoHeight: true
       }
     }
   });
