@@ -1276,6 +1276,18 @@ text-decoration: underline;
 }
 
 
+.document__container{
+    color: var(--white, #FFF);
+    font-family: Evolventa;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    padding: 5rem 1.5rem;
+}
+
+
 @media (max-width: 769px) {
     .footer__contacts{
         margin-left: 0;
@@ -1751,3 +1763,5 @@ text-decoration: underline;
   .fixed__btn {
     padding: 1.2rem 6.2rem 1.2rem 1.4rem;
   }
+
+  
