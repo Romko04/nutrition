@@ -1178,7 +1178,7 @@ text-align: left;
 }
 
 
-.youtube__player {
+#player {
     width: 43rem;
     height: 32rem;
 }
@@ -1660,7 +1660,7 @@ text-decoration: underline;
     .popup__content{
         flex-direction: column;
     }
-    .youtube__player {
+    #player {
         width: 100%;
         height: 17rem;
     }
